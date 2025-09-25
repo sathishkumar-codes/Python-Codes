@@ -1,4 +1,3 @@
-# Define functions for each operation
 def add(a, b):
     return a + b
 
@@ -15,7 +14,6 @@ def divide(a, b):
         print("Error! Division by zero is not allowed.")
         return None
 
-# Main calculator function using while
 def calculator():
     while True:
         print("\nSelect operation:")
@@ -46,3 +44,4 @@ def calculator():
                 print("Result:", result)
         else:
             print("Invalid input! Please try again.")
+ calculator()           

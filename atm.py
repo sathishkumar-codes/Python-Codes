@@ -1,5 +1,5 @@
 correct_pin = "2003"
-balance = 5000  # Initial balance
+balance = 5000  
 attempts = 0
 max_attempts = 3
 
@@ -13,7 +13,6 @@ while True:
     if pin == correct_pin:
         print("PIN accepted. Welcome!\n")
 
-        # Menu loop
         while True:
             print("\n----- ATM Menu -----")
             print("1. Check Balance")
